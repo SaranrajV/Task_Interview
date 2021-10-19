@@ -1,0 +1,129 @@
+
+
+.content{
+    margin-left: 40px ;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header .title{
+    padding: 5px;
+}
+
+.header-icons i {
+    padding: 10px 18px;
+    color: #ddcc00;
+}
+
+.header-icons select{
+    width: 180px;
+    border: 1px solid #ddcc00;
+    padding: 10px;
+    border-radius: 30px;
+    background: #eeeded;
+}    
+
+.main-seperator {
+margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background: #dbdbdb;
+}
+
+.main-seperator .title{
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    background: #e5e5e5;
+  }
+  .container > div {
+    flex: 1; /*grow*/
+    height: 250px;
+    margin: 5px;
+    border-radius: 15px;
+    background: #fff;
+  }
+
+  .main-content{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .div-blocks {
+    flex-grow: 1;
+  }
+
+  .toggle-box{
+      display: none;
+    flex-basis: 300px;
+    background: #f1f1f1;
+  }
+
+  .toggle-main-seperator{
+    padding-left: 5px;
+    padding-top: 8px;
+    background: #636363;
+    height: 30px;
+    color: #ddcc00;
+    font-weight: 500;
+  }
+
+  .call-records{
+      padding-top: 20px;
+      background: #f8f8f8;
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+
+  .call-records span {
+    padding-left: 5px;
+    font-weight: 600;
+  }
+
+  .greet-msg, .call-records, .actionDiv {
+    padding-left: 10px;
+  }
+
+  .calllist{
+    list-style: none;
+    margin: 0 !important;
+    padding: 10px;
+  }
+
+  .calllist li {
+      padding-bottom: 10px;
+      border-bottom: 1px solid;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    font-weight: 200;
+  }
+
+  .btn-action button {
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    background: white;
+    cursor: pointer;
+  }
+
+  .btn-action button.active {
+    background: #ddcc00 !important;
+}
+
+.btn-action button:hover {
+    background: #ddcc00 !important;
+}
+
+
+  

@@ -1,0 +1,22 @@
+.toolbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    background-color: #ddcc00;
+    color: white;
+    font-weight: 600;
+    min-height: 100%;
+  }
+
+  .toolbar i {
+    padding: 15px;
+    color: black;
+}
+
+i.fas.fa-home.active {
+  background: black;
+    color: #ddcc00;
+}

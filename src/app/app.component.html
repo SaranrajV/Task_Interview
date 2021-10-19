@@ -1,0 +1,66 @@
+
+
+<!-- Header -->
+<app-header></app-header>
+
+<!-- Main Content -->
+<div class="content" role="main">
+<div class="main-header">
+  <span class="title">Dashboard</span>
+  <div class="header-icons">
+    <select>
+      <option>1 Year</option>
+      <option>2 Year</option>
+      <option>3 Year</option>
+      </select>
+    <i class="fas fa-cog"></i>
+    <i class="fas fa-bell"></i>
+    <i class="fal fa-user"></i>
+    </div>
+</div>
+<div class="main-seperator">
+  <span class="title">Dashboard</span>
+  <span class="title" (click)="ShowHomeBlock()">Home</span>
+</div>
+<div class="main-content">
+  <div class="div-blocks">
+  <div class="container">
+    <div></div>
+    <div></div>  
+    <div></div>
+  </div>
+  <div class="container">
+    <div></div> 
+    <div></div>
+  </div>
+  </div>
+  <div class="toggle-box">
+    <div class="toggle-main-seperator">
+      <span class="title">Chitta Assistant</span>
+      </div>
+      <div class="greet-msg">
+        <h3>Greetings, Mr.John</h3>
+        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+      </div>
+      <div class="call-records">
+        <span>Average Call Handled</span>
+        <!-- <ul class="calllist">
+          <li *ngFor="let obj of callrecords"> {{obj.title}}   -    {{obj.value}} </li>
+        </ul> -->
+        <div *ngFor="let obj of callrecords">
+          <div class="flex-container"> <p>{{obj.title}}</p> <p>{{obj.value}}</p></div>
+        </div>
+      </div>
+      <div class="actionDiv">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="btn-action">
+          <button>Investigate changes in Usage</button>
+          <button>Change Service Plan</button>
+          <button class="active">Analyse using<b> Data Central</b></button>
+          </div>
+      </div>
+  </div>
+
+</div>
+</div>
+
